@@ -1,0 +1,9 @@
+name = "<>"
+account_id = "<>"
+
+main = "./.cloudflare/worker.js"
+site.bucket = "./.cloudflare/public"
+
+build.command = "npm run build"
+
+workers_dev = true
